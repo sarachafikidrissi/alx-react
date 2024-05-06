@@ -1,5 +1,5 @@
-#counter {
-    display: inline-block;
+#count {
+    display: inline;
     font-weight: bold;
 }
 
