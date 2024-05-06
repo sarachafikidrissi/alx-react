@@ -8,7 +8,17 @@
     "dev": "webpack --mode development",
     "build": "webpack"
   },
-  "keywords": [],
+  "keywords": [
+    "asset",
+    "compilation",
+    "entry",
+    "points",
+    "javascript",
+    "loaders",
+    "output",
+    "webpack",
+    "plugins"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
