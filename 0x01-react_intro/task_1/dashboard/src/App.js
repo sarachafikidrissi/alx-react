@@ -1,3 +1,4 @@
+import './App.css';
 import holberton_logo from './app_logo.jpg'
 import { getFullYear, getFooterCopy } from './utils'
 
@@ -15,7 +16,8 @@ export default function App() {
     </div>
 
     <div className="App-footer">
-      <p>Copyright {getFullYear()} - {getFooterCopy(true)} </p>
+      <p>Copyright {getFullYear()} 
+      - {getFooterCopy(true)} </p>
     </div>
 
 
