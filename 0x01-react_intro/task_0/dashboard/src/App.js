@@ -1,5 +1,3 @@
-import './App.css'
-
 import holberton_logo from './holberton_logo.jpg'
 
 export default function App() {
