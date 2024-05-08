@@ -1,15 +1,12 @@
 const path = require('path');
 
 module.exports = {
-    mode: 'production',
   entry: './src/index.js',
-  performance: {
-    maxAssetSize: 1000000,
-  },
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js'
   },
+  mode: "development",
   devtool: 'inline-source-map',
   module: {
     rules: [
@@ -42,13 +39,13 @@ module.exports = {
     ]
   },
   resolve: {
-    extensions: ['.js', '.jsx']
+    extensions: ["*", '.js', '.jsx']
   },
   devServer: {
-    static: {
-        directory: path.join(__dirname, 'dist'),
-      },
+    static: "./dist",
     compress: true,
-    port: 9000
-  }
+    open: true,
+    hot: true,
+    port: 9000,
+  },
 };
