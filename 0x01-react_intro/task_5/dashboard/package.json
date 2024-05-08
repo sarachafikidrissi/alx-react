@@ -25,5 +25,10 @@
     "webpack": "^5.91.0",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^5.0.4"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.24.5",
+    "@zarconontol/enzyme-adapter-react-18": "^0.7.3",
+    "inline-source-map": "^0.6.3"
   }
 }
