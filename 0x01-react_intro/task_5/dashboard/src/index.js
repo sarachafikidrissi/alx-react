@@ -6,4 +6,5 @@ ReactDOM.render(
       <h1>Hello, React with Webpack!</h1>
     </div>,
     document.getElementById("root")
-  );
+);
+
