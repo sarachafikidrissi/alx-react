@@ -1,12 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const App = () => {
-  return (
+ReactDOM.render(
     <div>
       <h1>Hello, React with Webpack!</h1>
-    </div>
-  )
-}
-
-ReactDOM.render(<App />, document.getElementById('root'));
+    </div>,
+    document.getElementById("root")
+  );
