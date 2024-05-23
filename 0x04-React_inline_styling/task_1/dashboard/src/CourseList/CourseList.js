@@ -24,12 +24,15 @@ function CourseList({ listCourses }) {
 
 const styles = StyleSheet.create({
   table: {
-    marginTop: '2em',
-    width: '100%',
-    border: '1px solid #ddd',
-    fontSize: '1.2rem',
-    marginBottom: '15em'
+    marginTop: "2em",
+    width: "100%",
+    border: "1px solid #ddd",
+    fontSize: "1.2rem",
+    marginBottom: "15em",
+    marginLeft: "auto",
+    marginRight: "auto",
   },
+
   th: {
     borderBottom: "1px solid #ddd",
     width: "80%",

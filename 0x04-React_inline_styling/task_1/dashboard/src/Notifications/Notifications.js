@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { StyleSheet, css } from 'aphrodite';
+import { StyleSheet, css } from "aphrodite";
 import closeIcon from "../assets/close-icon.png";
 import NotificationItem from "./NotificationItem";
 import PropTypes from "prop-types";
@@ -64,16 +64,18 @@ class Notifications extends Component {
 
 const styles = StyleSheet.create({
   Notifications: {
-    padding: '1em',
-    border: '2px dashed red',
-    position: 'absolute',
-    top: '1.8em',
-    right: '0',
+    padding: "1em",
+    border: "2px dashed red",
+    position: "absolute",
+    top: "1.8em",
+    right: "0",
   },
-  'notification-header': {
-    display: 'flex',
-    justifyContent: 'space-between',
+
+  "notification-header": {
+    display: "flex",
+    justifyContent: "space-between",
   },
+
   menuItem: {
     textAlign: "right",
   },
