@@ -60,6 +60,9 @@ describe("App tests", () => {
 });
 
 describe("When ctrl + h is pressed", () => {
+  beforeAll(() => {
+    global.alert = jest.fn();
+  });
   it("calls logOut function", () => {
     const mocked = jest.fn();
     const wrapper = mount(<App logOut={mocked} />);
